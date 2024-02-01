@@ -19,6 +19,9 @@
                 
             </form>
         </div>
+        <div id='app'>
+            <tweet></tweet> 
+        </div>
         <div>
             @foreach($tweets as $tweet)
             <details>
@@ -40,6 +43,4 @@
             @endforeach
         </div>
         
-    
-
 @endsection
